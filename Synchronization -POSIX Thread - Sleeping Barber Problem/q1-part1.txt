@@ -1,0 +1,38 @@
+monitor hari_cut:
+condition Barber, call_customer, haircutFinished, waitingCustomer
+sleepCheckFlag = 0
+customer_count = 0
+chair_count = 5
+
+method barber():
+       loop:
+
+	if customer_count == 0
+	   sleepCheckFlag = 1
+	   wait(Barber)
+	   sleepCheckFlag = 0
+	
+	// barber starts haircut   
+	sleep(1.2)
+	signal(haircutFinished)
+	customer_count--
+
+
+method customer():
+       loop:
+       
+	if customer_count >= chair_count
+       	  // customer returns back
+	  
+	else
+		customer_count++
+		
+		if sleepCheckflag == 1
+		   signal(Barber)
+		if customer_count > 1
+		   wait(waitingCustomer)   
+		   
+	 wait(haircutFinished)
+	 signal(waitingCustomer)
+	 
+	 sleep(10.0)

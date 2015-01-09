@@ -1,0 +1,6 @@
+Progress report of HW1 for team-30
+Ameya Mulye - Animesh Jain
+
+In initial team meetings, we set up virtual machine using VMware player and set up the repository. Later, problem 1 of homework was completed as per the instructions mentioned in the comments and with help of C-programming PDF in course resources. For first program, we are able to implement call for 'print' function. 
+
+In second question, we have completed writing bodies of functions - getargs and readline. strtok() function is used to split words from the string. Currently we are working on writing body of q2() function and then will be testing it using q1prog and q2prog files previously compiled.

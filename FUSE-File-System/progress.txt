@@ -1,0 +1,2 @@
+In initial meetings, we did planning for the coding project and set up the repository.
+Later, we started from getattr function and completed readdir, unlink, mkdir functions. We divided  functions in 2 sets and started implementing separately and we synchronized the codes in meeting to commit the final code. Over this week, we are working on remaining functions and will be working over weekend for writing the test cases. We have also added a few helper functions such as validatepath, num_blks.

@@ -1,0 +1,2 @@
+We started the assignment by reading the assignment problem statement. In initial meetings we setup the respository and understood the problem set and divided the task among ourself.
+For Stripe and RAID testing we created multiple small files with different contents and concatenate into one.

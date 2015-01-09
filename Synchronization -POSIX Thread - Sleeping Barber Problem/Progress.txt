@@ -1,0 +1,4 @@
+Progress report for Project -2 
+
+We have started by reading the slides given in the blackboard under synchronized 1 and synchronized 2 topics. Then we had setup the repository for the Project 2 and read the problem statement given in it. 
+Understood the problem statement and drawn flow charts for barber and customer functions.In the initial stage we have decided upon the wait states occurrence at various level in the flow chart, Later we finalized the flow diagram with appropriate signals release the locks on wait states. Wrote the pseudo code and completed question 1 part.
